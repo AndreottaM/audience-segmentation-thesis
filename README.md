@@ -1,4 +1,4 @@
-# MM-audiencesegmentation
+# audience-segmentation-thesis
 
 Audience segmentation of the Australian public. Contains stimuli, data, and scripts for Chapter 4 of the Matthew Andreotta's thesis. Co-authored by Mark Hurlstone, Fabio Boschetti, Simon Farrell, Cecile Paris, and Iain Walker. Any questions can be sent to matthewandreotta@gmail.com.
 
@@ -27,8 +27,6 @@ Study 2 was pre-registered using the Open Science Framework (https://osf.io/e7zh
 **out**: Figures and output files for examination or inclusion in a manuscript.
 
 **paper**: Assets from chapter.
-
-**relevant-notes**: Ethics documentation and collated notes. The latter is unlikely to be of use to anyone.
 
 **scripts**: Analysis scripts.
 
