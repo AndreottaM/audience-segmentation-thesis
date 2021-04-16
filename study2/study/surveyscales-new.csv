@@ -1,0 +1,80 @@
+scale,subscale,reverse-coded,item.original,alreadyordered,item.new,order.original,order.new,item.id
+BFI-10,extraversion,Y,... is reserved,Y,... is reserved,1,1,BFI-10-1
+BFI-10,agreeableness,N,... is generally trusting,Y,... is generally trusting,2,2,BFI-10-2
+BFI-10,conscientiousness,Y,... tends to be lazy,Y,... tends to be lazy,3,3,BFI-10-3
+BFI-10,neuroticism,Y,"... is relaxed, handles stress well",Y,"... is relaxed, handles stress well",4,4,BFI-10-4
+BFI-10,openness,Y,... has few artistic interests,Y,... has few artistic interests,5,5,BFI-10-5
+BFI-10,extraversion,N,"... is outgoing, sociable",Y,"... is outgoing, sociable",6,6,BFI-10-6
+BFI-10,agreeableness,Y,... tends to find fault with others,Y,... tends to find fault with others,7,7,BFI-10-7
+BFI-10,conscientiousness,N,... does a thorough job,Y,... does a thorough job,8,8,BFI-10-8
+BFI-10,neuroticism,N,... gets nervous easily,Y,... gets nervous easily,9,9,BFI-10-9
+BFI-10,openness,N,... has an active imagination,Y,... has an active imagination,10,10,BFI-10-10
+CFC-S,future,N,I consider how things might be in the future.,Y,I consider how things might be in the future.,1,1,CFC-S-1
+CFC-S,future,N,Often I engage in a particular behaviour to achieve outcomes that may only result many years from now.,Y,Often I engage in a particular behaviour to achieve outcomes that may only result many years from now.,2,2,CFC-S-2
+CFC-S,immediate,N,"I mainly act to satisfy my immediate concerns, figuring the future will take care of itself.",Y,"I mainly act to satisfy my immediate concerns, figuring the future will take care of itself.",3,3,CFC-S-3
+CFC-S,immediate,N,"My behaviour is only influenced by the immediate (i.e., a matter of days or weeks) outcomes of my actions.",Y,"My behaviour is only influenced by the immediate (i.e., a matter of days or weeks) outcomes of my actions.",4,4,CFC-S-4
+CFC-S,future,N,I am willing to sacrifice now to achieve future outcomes.,Y,I am willing to sacrifice now to achieve future outcomes.,5,5,CFC-S-5
+CFC-S,future,N,I think it is important to take warnings about negative outcomes seriously even if the negative outcome will not occur for many years.,Y,I think it is important to take warnings about negative outcomes seriously even if the negative outcome will not occur for many years.,6,6,CFC-S-6
+CFC-S,immediate,N,"I generally ignore warnings about possible future problems, because I think the problems will be resolved before they reach crisis level.",Y,"I generally ignore warnings about possible future problems, because I think the problems will be resolved before they reach crisis level.",7,7,CFC-S-7
+CFC-S,immediate,N,I think that sacrificing now is usually unnecessary since problematic future outcomes can be dealt with at a later time.,Y,I think that sacrificing now is usually unnecessary since problematic future outcomes can be dealt with at a later time.,8,8,CFC-S-8
+CFC-S,immediate,N,"I only act to satisfy immediate concerns, figuring that I will take care of future problems that may occur at a later date.",Y,"I only act to satisfy immediate concerns, figuring that I will take care of future problems that may occur at a later date.",9,9,CFC-S-9
+CI,conspiracist ideation,N,"The U.S. government allowed the 9-11 attacks to take place so that it would have an excuse to achieve foreign (e.g., wars in Afghanistan and Iraq) and domestic (e.g., attacks on civil liberties) goals that had been determined prior to the attacks.",N,"The U.S. government allowed the 9-11 attacks to take place so that it would have an excuse to achieve foreign (e.g., wars in Afghanistan and Iraq) and domestic (e.g., attacks on civil liberties) goals that had been determined prior to the attacks.",5,1,CI-1
+CI,conspiracist ideation,N,The assassination of John F. Kennedy was not committed by the lone gunman Lee Harvey Oswald but was rather a detailed organized conspiracy to kill the President.,N,The assassination of John F. Kennedy was not committed by the lone gunman Lee Harvey Oswald but was rather a detailed organised conspiracy to kill the President.,4,2,CI-2
+CI,conspiracist ideation,N,The assassination of Martin Luther King Jr. was the result of an organized conspiracy by the U.S. government agencies such as the CIA and FBI.,N,The assassination of Martin Luther King Jr. was the result of an organized conspiracy by the U.S. government agencies such as the CIA and FBI.,2,3,CI-3
+CI,conspiracist ideation,N,Princess Diana's death was not an accident but rather an organised assassination by members of the British royal family that disliked her.,N,Princess Diana's death was not an accident but rather an organised assassination by members of the British royal family that disliked her.,6,4,CI-4
+CI,conspiracist ideation,N,The Apollo moon landings never happened and were staged in a Hollywood film studio.,N,The Apollo moon landings never happened and were staged in a Hollywood film studio.,3,5,CI-5
+CI,conspiracist ideation,N,A powerful and secretive group known as the New World Order are planning to eventually rule the world through an autonomous world government which would replace sovereign governments.,N,A powerful and secretive group known as the New World Order are planning to eventually rule the world through an autonomous world government which would replace sovereign governments.,1,6,CI-6
+EWS,elastic,N,The natural environment is capable of recovering from any damage humans may cause,N,The natural environment is capable of recovering from any damage humans may cause,2,1,EWS-1
+EWS,ductile,N,If the balance of the natural environment is upset the whole system will collapse,N,If the balance of the natural environment is upset the whole system will collapse,5,2,EWS-2
+EWS,elastic,N,"There's no point wasting time, energy and resources on trying to manage the natural environment",N,"There's no point wasting time, energy and resources on trying to manage the natural environment",9,3,EWS-3
+EWS,ductile,N,We all have a moral obligation to protect the environment and consume fewer resources,N,We all have a moral obligation to protect the environment and consume fewer resources,8,4,EWS-4
+EWS,elastic,N,"Ultimately, there's nothing individuals can do to manage or change the natural environment",N,"Ultimately, there's nothing individuals can do to manage or change the natural environment",4,5,EWS-5
+EWS,elastic,N,Human industry and technology has not caused significant damage to the natural environment,N,Human industry and technology has not caused significant damage to the natural environment,11,6,EWS-6
+EWS,elastic,N,Individuals should have freedom of choice regardless of the environmental impacts,N,Individuals should have freedom of choice regardless of the environmental impacts,10,7,EWS-7
+EWS,ductile,N,When pushed beyond the limits identified by experts the natural environment will not recover,N,When pushed beyond the limits identified by experts the natural environment will not recover,7,8,EWS-8
+EWS,ductile,N,Conservation and protection is the most rational strategy for managing the natural environment,N,Conservation and protection is the most rational strategy for managing the natural environment,6,9,EWS-9
+EWS,elastic,N,Humans can't control what happens in the natural environment,N,Humans can't control what happens in the natural environment,12,10,EWS-10
+EWS,ductile,N,The natural environment can be managed if there are clear rules about what is allowed,N,The natural environment can be managed if there are clear rules about what is allowed,3,11,EWS-11
+EWS,ductile,N,The natural environment will become unstable if humans exceed the limits identified by experts,N,The natural environment will become unstable if humans exceed the limits identified by experts,1,12,EWS-12
+KV,knowledge volume,N,How much do you feel you know about global warming?,Y,How much do you feel you know about climate change?,1,1,KV-1
+NCS-6,need for cognition,N,I would prefer complex to simple problems,Y,I would prefer complex to simple problems,1,1,NCS-6-1
+NCS-6,need for cognition,N,I like to have the responsibility of handling a situation that requires a lot of thinking,Y,I like to have the responsibility of handling a situation that requires a lot of thinking,2,2,NCS-6-2
+NCS-6,need for cognition,Y,Thinking is not my idea of fun,Y,Thinking is not my idea of fun,3,3,NCS-6-3
+NCS-6,need for cognition,Y,I would rather do something that requires little thought than something that is sure to challenge my thinking abilities,Y,I would rather do something that requires little thought than something that is sure to challenge my thinking abilities,4,4,NCS-6-4
+NCS-6,need for cognition,N,I really enjoy a task that involves coming up with new solutions to problems,Y,I really enjoy a task that involves coming up with new solutions to problems,5,5,NCS-6-5
+NCS-6,need for cognition,N,"I would prefer a task that is intellectual, difficult, and important to one that is somewhat important but does not require much thought",Y,"I would prefer a task that is intellectual, difficult, and important to one that is somewhat important but does not require much thought",6,6,NCS-6-6
+PA,political affiliation,N,Please indicate the extent to which you identify yourself as politically left-wing or right-wing.,N,Please indicate the extent to which you identify yourself as politically left-wing or right-wing.,1,1,PA-1
+SJ,system justification,N,"In general, you find society to be fair.",Y,"In general, you find society to be fair.",1,1,SJ-1
+SJ,system justification,N,"In general, the American political system operates as it should.",Y,"In general, the Australian political system operates as it should.",2,2,SJ-2
+SJ,system justification,Y,American society needs to be radically restructured.,Y,Australian society needs to be radically restructured.,3,3,SJ-3
+SJ,system justification,N,The United States is the best country in the world to live in.,Y,Australia is the best country in the world to live in.,4,4,SJ-4
+SJ,system justification,N,Most policies serve the greater good.,Y,Most policies serve the greater good.,5,5,SJ-5
+SJ,system justification,N,Everyone has a fair shot at wealth and happiness.,Y,Everyone has a fair shot at wealth and happiness.,6,6,SJ-6
+SJ,system justification,Y,Our society is getting worse every year.,Y,Our society is getting worse every year.,7,7,SJ-7
+SJ,system justification,N,Society is set up so that people usually get what they deserve.,Y,Society is set up so that people usually get what they deserve.,8,8,SJ-8
+SS,epistemic scepticism,N,The media is often too alarmist about climate change,N,The media is often too alarmist about climate change,11,1,SS-1
+SS,epistemic scepticism,N,Current climate change is part of a pattern that has been going on for millions of years,N,Current climate change is part of a pattern that has been going on for millions of years,10,2,SS-2
+SS,response scepticism,N,It is already too late to do anything about climate change,N,It is already too late to do anything about climate change,2,3,SS-3
+SS,epistemic scepticism,N,"There are a lot of very different theories about climate change, and little agreement about which is right",N,"There are a lot of very different theories about climate change, and little agreement about which is right",8,4,SS-4
+SS,epistemic scepticism,N,Environmentalists do their best to emphasise the worst possible effects of climate change,N,Environmentalists do their best to emphasise the worst possible effects of climate change,9,5,SS-5
+SS,response scepticism,N,The actions of a single person don’t make any difference in tackling climate change,N,The actions of a single person don’t make any difference in tackling climate change,3,6,SS-6
+SS,response scepticism,N,"Climate change is so complicated, that there is very little politicians can do about it",N,"Climate change is so complicated, that there is very little politicians can do about it",4,7,SS-7
+SS,epistemic scepticism,N,Scientists have in the past changed their results to make climate change appear worse than it is,N,Scientists have in the past changed their results to make climate change appear worse than it is,14,8,SS-8
+SS,epistemic scepticism,N,Climate change is just a natural fluctuation in Earth's temperatures,N,Climate change is just a natural fluctuation in Earth's temperatures,13,9,SS-9
+SS,response scepticism,N,Climate change has now become a bit of an outdated issue,N,Climate change has now become a bit of an outdated issue,5,10,SS-10
+SS,response scepticism,N,Climate change is a scam,N,Climate change is a scam,6,11,SS-11
+SS,response scepticism,N,"Whether it is important or not, on a day-to-day basis I am bored of hearing about climate change",N,"Whether it is important or not, on a day-to-day basis I am bored of hearing about climate change",7,12,SS-12
+SS,epistemic scepticism,N,There is too much conflicting evidence about climate change to know whether it is actually happening,N,There is too much conflicting evidence about climate change to know whether it is actually happening,12,13,SS-13
+SS,response scepticism,N,There is no point in me doing anything about climate change because no-one else is,N,There is no point in me doing anything about climate change because no-one else is,1,14,SS-14
+SS,epistemic scepticism,N,Scientists have hidden research that shows climate change is not serious,N,Scientists have hidden research that shows climate change is not serious,15,15,SS-15
+SVSS,power,N,"POWER (social power, authority, wealth)",Y,"POWER (social power, authority, wealth)",1,1,SVSS-1
+SVSS,achievement,N,"ACHIEVEMENT (success, capability, ambition, influence on people and events)",Y,"ACHIEVEMENT (success, capability, ambition, influence on people and events)",2,2,SVSS-2
+SVSS,hedonism,N,"HEDONISM (gratification of desires, enjoyment in life, self-indulgence)",Y,"HEDONISM (gratification of desires, enjoyment in life, self-indulgence)",3,3,SVSS-3
+SVSS,stimulation,N,"STIMULATION (daring, a varied and challenging life, an exciting life",Y,"STIMULATION (daring, a varied and challenging life, an exciting life",4,4,SVSS-4
+SVSS,self-direction,N,"SELF-DIRECTION (creativity, freedom, curiosity, independence, choosing one's own goals)",Y,"SELF-DIRECTION (creativity, freedom, curiosity, independence, choosing one's own goals)",5,5,SVSS-5
+SVSS,universalism,N,"UNIVERSALISM (broad-mindedness, beauty of nature and arts, social justice, a world at peace, equality, wisdom, unity with nature, environmental protection)",Y,"UNIVERSALISM (broad-mindedness, beauty of nature and arts, social justice, a world at peace, equality, wisdom, unity with nature, environmental protection)",6,6,SVSS-6
+SVSS,benevolence,N,"BENEVOLENCE (helpfulness, honesty, forgiveness, loyalty, responsibility)",Y,"BENEVOLENCE (helpfulness, honesty, forgiveness, loyalty, responsibility)",7,7,SVSS-7
+SVSS,tradition,N,"TRADITION (respect for tradition, humbleness, accepting one's portion in life, devotion, modesty)",Y,"TRADITION (respect for tradition, humbleness, accepting one's portion in life, devotion, modesty)",8,8,SVSS-8
+SVSS,conformity,N,"CONFORMITY (obedience, honoring parents and elders, self-discipline, politeness)",Y,"CONFORMITY (obedience, honoring parents and elders, self-discipline, politeness)",9,9,SVSS-9
+SVSS,security,N,"SECURITY (national security, family security, social order, cleanliness, reciprocation of favors)",Y,"SECURITY (national security, family security, social order, cleanliness, reciprocation of favors)",10,10,SVSS-10
+W,worry,N,Worry.,N,Worry.,1,1,W-1

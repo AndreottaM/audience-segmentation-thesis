@@ -1,0 +1,80 @@
+scale,subscale,reverse-coded,item.original,alreadyordered
+BFI-10,extraversion,Y,... is reserved,Y
+BFI-10,agreeableness,N,... is generally trusting,Y
+BFI-10,conscientiousness,Y,... tends to be lazy,Y
+BFI-10,neuroticism,Y,"... is relaxed, handles stress well ",Y
+BFI-10,openness,Y,... has few artistic interests ,Y
+BFI-10,extraversion,N,"... is outgoing, sociable ",Y
+BFI-10,agreeableness,Y,... tends to find fault with others,Y
+BFI-10,conscientiousness,N,... does a thorough job ,Y
+BFI-10,neuroticism,N,... gets nervous easily ,Y
+BFI-10,openness,N,... has an active imagination ,Y
+CFC-S,future,N,I consider how things might be in the future.,Y
+CFC-S,future,N,Often I engage in a particular behaviour to achieve outcomes that may only result many years from now.,Y
+CFC-S,immediate,N,"I mainly act to satisfy my immediate concerns, figuring the future will take care of itself.",Y
+CFC-S,immediate,N,"My behaviour is only influenced by the immediate (i.e., a matter of days or weeks) outcomes of my actions.",Y
+CFC-S,future,N,I am willing to sacrifice now to achieve future outcomes.,Y
+CFC-S,future,N,I think it is important to take warnings about negative outcomes seriously even if the negative outcome will not occur for many years.,Y
+CFC-S,immediate,N,"I generally ignore warnings about possible future problems, because I think the problems will be resolved before they reach crisis level.",Y
+CFC-S,immediate,N,I think that sacrificing now is usually unnecessary since problematic future outcomes can be dealt with at a later time.,Y
+CFC-S,immediate,N,"I only act to satisfy immediate concerns, figuring that I will take care of future problems that may occur at a later date.",Y
+CI,conspiracist ideation,N,A powerful and secretive group known as the New World Order are planning to eventually rule the world through an autonomous world government which would replace sovereign governments. ,N
+CI,conspiracist ideation,N,The assassination of Martin Luther King Jr. was the result of an organized conspiracy by the U.S. government agencies such as the CIA and FBI.,N
+CI,conspiracist ideation,N,The Apollo moon landings never happened and were staged in a Hollywood film studio. ,N
+CI,conspiracist ideation,N,The assassination of John F. Kennedy was not committed by the lone gunman Lee Harvey Oswald but was rather a detailed organized conspiracy to kill the President.,N
+CI,conspiracist ideation,N,"The U.S. government allowed the 9-11 attacks to take place so that it would have an excuse to achieve foreign (e.g., wars in Afghanistan and Iraq) and domestic (e.g., attacks on civil liberties) goals that had been determined prior to the attacks.",N
+CI,conspiracist ideation,N,Princess Diana's death was not an accident but rather an organised assassination by members of the British royal family that disliked her.,N
+EWS,ductile,N,The natural environment will become unstable if humans exceed the limits identified by experts,N
+EWS,elastic,N,The natural environment is capable of recovering from any damage humans may cause,N
+EWS,ductile,N,The natural environment can be managed if there are clear rules about what is allowed,N
+EWS,elastic,N,"Ultimately, there's nothing individuals can do to manage or change the natural environment",N
+EWS,ductile,N,If the balance of the natural environment is upset the whole system will collapse,N
+EWS,ductile,N,Conservation and protection is the most rational strategy for managing the natural environment,N
+EWS,ductile,N,When pushed beyond the limits identified by experts the natural environment will not recover,N
+EWS,ductile,N,We all have a moral obligation to protect the environment and consume fewer resources,N
+EWS,elastic,N,"There's no point wasting time, energy and resources on trying to manage the natural environment",N
+EWS,elastic,N,Individuals should have freedom of choice regardless of the environmental impacts,N
+EWS,elastic,N,Human industry and technology has not caused significant damage to the natural environment,N
+EWS,elastic,N,Humans can't control what happens in the natural environment,N
+KV,knowledge volume,N,How much do you feel you know about global warming?,Y
+NCS-6,need for cognition,N,I would prefer complex to simple problems,Y
+NCS-6,need for cognition,N,I like to have the responsibility of handling a situation that requires a lot of thinking,Y
+NCS-6,need for cognition,Y,Thinking is not my idea of fun,Y
+NCS-6,need for cognition,Y,I would rather do something that requires little thought than something that is sure to challenge my thinking abilities,Y
+NCS-6,need for cognition,N,I really enjoy a task that involves coming up with new solutions to problems,Y
+NCS-6,need for cognition,N,"I would prefer a task that is intellectual, difficult, and important to one that is somewhat important but does not require much thought",Y
+PA,political affiliation,N,Please indicate the extent to which you identify yourself as politically left-wing or right-wing.,N
+SS,response scepticism,N,There is no point in me doing anything about climate change because no-one else is,N
+SS,response scepticism,N,It is already too late to do anything about climate change,N
+SS,response scepticism,N,The actions of a single person don’t make any difference in tackling climate change,N
+SS,response scepticism,N,"Climate change is so complicated, that there is very little politicians can do about it",N
+SS,response scepticism,N,Climate change has now become a bit of an outdated issue,N
+SS,response scepticism,N,Climate change is a scam,N
+SS,response scepticism,N,"Whether it is important or not, on a day-to-day basis I am bored of hearing about climate change",N
+SS,epistemic scepticism,N,"There are a lot of very different theories about climate change, and little agreement about which is right",N
+SS,epistemic scepticism,N,Environmentalists do their best to emphasise the worst possible effects of climate change,N
+SS,epistemic scepticism,N,Current climate change is part of a pattern that has been going on for millions of years,N
+SS,epistemic scepticism,N,The media is often too alarmist about climate change,N
+SS,epistemic scepticism,N,There is too much conflicting evidence about climate change to know whether it is actually happening,N
+SS,epistemic scepticism,N,Climate change is just a natural fluctuation in Earth's temperatures,N
+SS,epistemic scepticism,N,Scientists have in the past changed their results to make climate change appear worse than it is,N
+SS,epistemic scepticism,N,Scientists have hidden research that shows climate change is not serious,N
+SVSS,power,N,"POWER (social power, authority, wealth)",Y
+SVSS,achievement,N,"ACHIEVEMENT (success, capability, ambition, influence on people and events)                                                                                                  ",Y
+SVSS,hedonism,N,"HEDONISM (gratification of desires, enjoyment in life, self-indulgence)",Y
+SVSS,stimulation,N,"STIMULATION (daring, a varied and challenging life, an exciting life",Y
+SVSS,self-direction,N,"SELF-DIRECTION (creativity, freedom, curiosity, independence, choosing one's own goals)                                                                                      ",Y
+SVSS,universalism,N,"UNIVERSALISM (broad-mindedness, beauty of nature and arts, social justice, a world at peace, equality, wisdom, unity with nature, environmental protection)",Y
+SVSS,benevolence,N,"BENEVOLENCE (helpfulness, honesty, forgiveness, loyalty, responsibility)",Y
+SVSS,tradition,N,"TRADITION (respect for tradition, humbleness, accepting one's portion in life, devotion, modesty)                                                                              ",Y
+SVSS,conformity,N,"CONFORMITY (obedience, honoring parents and elders, self-discipline, politeness)                                                                                                ",Y
+SVSS,security,N,"SECURITY (national security, family security, social order, cleanliness, reciprocation of favors)",Y
+SJ,system justification,N,"In general, you find society to be fair.",Y
+SJ,system justification,N,"In general, the American political system operates as it should.",Y
+SJ,system justification,Y,American society needs to be radically restructured.,Y
+SJ,system justification,N,The United States is the best country in the world to live in.,Y
+SJ,system justification,N,Most policies serve the greater good.,Y
+SJ,system justification,N,Everyone has a fair shot at wealth and happiness.,Y
+SJ,system justification,Y,Our society is getting worse every year. ,Y
+SJ,system justification,N,Society is set up so that people usually get what they deserve.,Y
+W,worry,N,Worry.,N

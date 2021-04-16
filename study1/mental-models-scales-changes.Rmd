@@ -1,0 +1,51 @@
+---
+title: "Changes to mental model scales"
+output: html_notebook
+---
+
+This notebook details changes made to mental model scales, before and after Study 1
+
+# Before Study 1
+Altered 'Fertilizing the oceans to make algae grow' to 'Fertilising the oceans to make algae grow' for compatibility with Australian spelling
+
+```{r}
+library(tidyverse)
+
+dat.scales <- read_csv("mental-model-scales.csv", col_names = T, col_types = cols(.default = "c")) #load data
+
+dat.scales <- dat.scales %>%
+  rowwise %>%
+  mutate(item.study1 = if_else(item.original == "Fertilizing the oceans to make algae grow", "Fertilising the oceans to make algae grow", item.original))
+
+#Fertilising the oceans to make algae grow
+
+```
+
+
+
+```{r}
+# Randomises item order of Bostrom et al. (2012) scales
+# Original item order is unknown
+# Intend to administer scales in same order as original authors
+
+#Select seed
+set.seed(103642)
+
+# Randomly sample from all rows (without replacement)
+# Row order will determine the presentation to participants
+dat.scales <- dat.scales %>%
+  group_by(scale, add = F) %>%
+  mutate(order.item.original = row_number()) %>%
+  sample_frac %>%
+  mutate(order.item.study1 = row_number())
+#Assign ID to each item, based on scale and order
+dat.scales <- dat.scales %>%
+  rowwise() %>%
+  mutate(item.id = paste0(scale, "-", order.item.study1))
+#Write to csv, order by sequence of scale adminstration, then by order of items in each scale
+dat.scales %>%
+  ungroup %>%
+  arrange(factor(scale, levels = c("human", "cause", "consequence", "mitigation")) , order.item.study1) %>%
+  write_csv(path = "mental-model-scales-study1.csv")
+```
+

@@ -1,0 +1,51 @@
+myIPCCButton.onclick = function(){showIPCCButton()};
+function showIPCCButton() {
+var x = document.getElementById("myIPCCContent");
+var y = document.getElementById("myIPCCButton");
+if (x.style.display === "block") {
+    x.style.display = "none";
+    y.innerHTML = 'What is the IPCC?';
+} else {
+    x.style.display = "block";
+    y.innerHTML = 'Hide Information';
+}
+}
+
+myERFButton.onclick = function(){showERFButton()};
+function showERFButton() {
+var x = document.getElementById("myERFContent");
+var y = document.getElementById("myERFButton");
+if (x.style.display === "block") {
+    x.style.display = "none";
+    y.innerHTML = 'What is the Emissions Reduction Fund?';
+} else {
+    x.style.display = "block";
+    y.innerHTML = 'Hide Information';
+}
+}
+
+myCTButton.onclick = function(){showCTButton()};
+function showCTButton() {
+var x = document.getElementById("myCTContent");
+var y = document.getElementById("myCTButton");
+if (x.style.display === "block") {
+    x.style.display = "none";
+    y.innerHTML = 'What is the Climate Action Tracker?';
+} else {
+    x.style.display = "block";
+    y.innerHTML = 'Hide Information';
+}
+}
+
+mySCIButton.onclick = function(){showSCIButton()};
+function showSCIButton() {
+var x = document.getElementById("mySCIContent");
+var y = document.getElementById("mySCIButton");
+if (x.style.display === "block") {
+    x.style.display = "none";
+    y.innerHTML = 'What are peer-reviewed articles by climate scientists?';
+} else {
+    x.style.display = "block";
+    y.innerHTML = 'Hide Information';
+}
+}

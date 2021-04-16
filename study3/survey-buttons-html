@@ -1,0 +1,77 @@
+<html>
+<head>
+<style>
+#myIPCCContent {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 5px;
+    display: none;
+}
+#myERFContent {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 5px;
+    display: none;
+}
+#myCTContent {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 5px;
+    display: none;
+}
+#mySCIContent {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 5px;
+    display: none;
+}
+.wrapper {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+  <button id="myIPCCButton">What is the IPCC?</button>
+</div>
+<div id="myIPCCContent">
+<p><span style="font-size:16px;">The <b>Intergovernmental Panel on Climate Change (IPCC)</b> is an intergovernmental body of the United Nations, dedicated to providing the world with an objective, scientific view of climate change and its political and economic impacts. Thousands of scientists and other experts contribute on a voluntary basis to writing and reviewing reports. The IPCC provides an internationally accepted authority on climate change, producing reports which have the agreement of leading climate scientists and the consensus of participating governments.</span></p>
+</div>
+
+
+<div class="wrapper">
+  <button id="myERFButton">What is the Emissions Reduction Fund?</button>
+</div>
+<div id="myERFContent">
+<p><span style="font-size:16px;">To meet their Paris Agreement goals, the Australian government uses an <strong>Emissions Reduction Fund</strong>. By running projects to reduce emissions, businesses, local councils, state governments, land managers and others can earn Australian carbon credit units (ACCUs). These units can be sold to the Australian Government through a carbon abatement contract, or to other businesses seeking to offset their emissions. For example, a business which plans a project to improve energy efficiency in buildings and industrial facilities by upgrading lights and equipment can earn ACCUs. So far, the government has invested $4.55 billion into the fund.</span></p>
+<p><span style="font-size:16px;">&nbsp;</span></p>
+<p><span style="font-size:16px;">A safeguard mechanism applies limits to large emitters. It requires Australia’s largest emitters to keep emissions within baseline levels. This is to ensure that emissions reductions purchased by the Government are not offset by significant increases in emissions above business-as-usual levels elsewhere in the economy.</span></p>
+</div>
+
+
+<div class="wrapper">
+  <button id="myCTButton">What is the Climate Action Tracker?</button>
+</div>
+<div id="myCTContent">
+<p><span style="font-size:16px;">The <b>Climate Action Tracker</b> conducts scientific analysis that tracks government commitments to climate action and assesses whether countries are on track to meeting those. Climate Action Tracker's analyses investigate the effectiveness of government policies. The reports produced by Climate Action Tracker are respected and used by policymakers across the globe.</span></p>
+</div>
+
+<div class="wrapper">
+  <button id="mySCIButton">What are peer-reviewed articles by climate scientists?</button>
+</div>
+<div id="mySCIContent">
+<p><span style="font-size:16px;">
+<b>Climate scientists</b> draw on experiments, historical observations, and mathematical models to make conclusions about climate change. These conclusions are reported in <b>academic journals</b>. The most trustworthy research is <b>peer-reviewed</b>, meaning other climate scientists have an opportunity to critique the research. If the research is misleading or illegimate, it may be rejected by peer reviewers for publication.</span></p>
+</div>
+
+</body>
+</html>

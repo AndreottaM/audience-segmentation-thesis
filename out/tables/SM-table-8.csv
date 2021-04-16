@@ -1,0 +1,6 @@
+model,conseq_AIC,mitig_AIC
+Intercept only,26.93,2.48
+Main effect of segment membership,0.84,0.15
+Main effect of news type,25.09,1.40
+"Main effect of segment membership, main effect of news type",0.00,0.00
+"Main effect of segment membership, main effect of news type, interaction between segment membership and news type",3.84,3.95

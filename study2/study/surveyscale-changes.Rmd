@@ -1,0 +1,262 @@
+---
+title: "Alterations to non-mental model survey scales"
+output: html_notebook
+---
+
+# Description
+
+This file explains changes made to survey items for the purposes of our study.
+
+
+```{r}
+library(tidyverse)
+#Load file, add blank new items
+dat.s <- read_csv("surveyscales-original.csv", col_types = cols(.default = "c")) %>%
+  mutate(item.new = "")
+#Display random rows
+dat.s %>%
+  sample_n(5)
+```
+
+
+# Changes
+
+## 1. Conversion to Australian spelling
+
+As sample will be Australians, we ensured all scales used Australian spelling.
+
+
+### SVSS
+
+#### Items
+
+**conformity** item wording, from "honoring" to "honouring"
+**security** item wording, from "favors" to "favours"
+
+```{r}
+dat.s <- dat.s %>%
+    rowwise %>%
+    mutate(item.new = if_else(scale == "SVSS" & subscale == "conformity", "CONFORMITY (obedience, honouring parents and elders, self-discipline, politeness)",
+                              if_else(scale == "SVSS" & subscale == "security", "SECURITY (national security, family security, social order, cleanliness, reciprocation of favours)", item.original)
+                              ))
+#Show new SVSS scale
+dat.s %>%
+  filter(scale == "SVSS")
+```
+
+### Conspiracist ideation
+
+```{r}
+dat.s <- dat.s %>%
+    rowwise %>%
+    mutate(item.new = if_else(scale == "CI" & item.original == "The assassination of John F. Kennedy was not committed by the lone gunman Lee Harvey Oswald but was rather a detailed organized conspiracy to kill the President.", "The assassination of John F. Kennedy was not committed by the lone gunman Lee Harvey Oswald but was rather a detailed organised conspiracy to kill the President.", item.original))
+#Show new CI scale
+dat.s %>%
+  filter(scale == "SVSS")
+```
+
+### System Justification
+
+Changed references to America and the United States to Australia (within the CSV itself).
+
+
+## 2. Conversion from "global warming" to "climate change"
+
+### Knowledge Volume
+
+Rephrased the one **Knowledge Volume** item
+
+
+```{r}
+dat.s <- dat.s %>%
+  mutate(item.new = if_else(scale == "KV", "How much do you feel you know about climate change?", item.new))
+#Show new KV scale
+dat.s %>%
+  filter(scale == "KV")
+```
+
+### Worry item
+
+Changed explanatory text for worry item.
+
+# Alteration to structure of scales
+
+## Worry item
+
+As worry item was taken from a multi-item scale, reduced explanatory text and item into a single item.
+
+# Order scales without a specified order
+
+In this study, the items for each scale will be randomised *once* and administered to the sample (unless scale was validated with a specific order; e.g., the NCS-6). That is, for each scale, participants will encounter items in the same order as other participants.
+
+```{r}
+#Assign seed
+set.seed(012691)
+#Order items
+dat.s <- dat.s %>%
+  group_by(scale, add = F) %>%
+  mutate(order.original = row_number()) %>%
+  mutate(order.new = if_else(alreadyordered == "Y", order.original, sample(order.original, length(order.original), replace = F)))
+#Assign ID to each item, based on scale and order
+dat.s <- dat.s %>%
+  rowwise() %>%
+  mutate(item.id = paste0(scale, "-", order.new))
+#Show new orders
+dat.s %>%
+  filter(alreadyordered != "Y")
+```
+
+
+# Export scales
+
+Arrange on the basis of item order, for each scale
+
+```{r}
+dat.s <- dat.s %>% 
+  group_by(scale) %>% 
+  arrange(order.new, .by_group = T)
+dat.s %>%
+  write_csv("surveyscales-new.csv")
+#Show new dat.s
+dat.s
+```
+
+# Create a diagram-balanced Latin square for scale order
+
+Survey consists of:
+
+1. Mental model scales (see Study 1 directory)
+2. Non-mental model scales
+
+```{r}
+#Function to create diagram-balanced Latin squares
+create_dbls <- function(n, as.letter = F){
+  #Takes number of conditions (n) and returns the diagram-balanced Latin square(s)
+  #If as.letter = T, return squares in letter format, if false/null, use numbers
+  #If n > 26, letters cannot be used
+  if(as.letter){
+    if(n > 26){
+      print("number of conditions are greater than number of available letters (26), using numbers instead")
+      as.letter <- F
+    }
+  }
+  #Firstly, create one empty cyclic Latin square
+  cls <- matrix(1:n, n, n, byrow = T)
+  #Create two empty diagram-balanced Latin squares
+  dbls <- matrix(0, n, n)
+  for (i in 1:n){
+    #Cycle previous row to create a cyclic square, unnecessary for first row
+    if(i > 1){
+    old.seq <- cls[i - 1, ] #old sequence, to be shifted one to the left
+    cls[i, ] <- old.seq %% n + 1 #shifts sequence to the left
+    }
+    #Interleave sequence from cyclic latin square
+    il.seq <- suppressWarnings(as.vector(rbind(cls[i, ], rev(cls[i, ]))))
+    dbls[i, ] <- il.seq[1:n]
+  }
+  #Create a warning to ensure users know which squares ensure counterbalance
+  msg <- if_else((n %% 2) > 0, "Use both Diagram-Balanced Latin Squares to ensure adequate counterbalance",
+                 "Use either Diagram-Balanced Latin Square to ensure adequate counterbalance")
+  print(msg)
+  #If necessary, conver to letters
+  if(as.letter){
+    dbls <- apply(dbls, c(1,2), function(x){return(LETTERS[x])})
+  }
+  #Return the diagram-balanced Latin squares
+  list(dbls, dbls[ , n:1]) %>%
+  return()
+}
+
+#TESTING FUNCTION
+is.dbls <- function(ls){
+  #Function to test if input (ls) is a diagram-balanced Latin square
+  #Check of Latin square contains characters, if so, convert to numbers
+  if(is.character(ls)){
+    ls <- apply(ls, 1:2, function(x){return(which(LETTERS == x))})
+  }
+  #n = number of conditions
+  n <- nrow(ls)
+  #for each condition in the Latin square, verify conditions are counterbalanced
+  for(i in 1:n){
+    for(j in 1:n){
+      #i and j are two conditions
+      if(i != j){
+        #determine which sequences have i immediately preceed/proceed j
+        #test is a vector, for each sequence, 1 indicates i immediately followed j, -1 indicated j immediately followed i
+        #0 indicates neither option
+        test <- apply(ls, 1, function(x){
+            ans <- 0
+            ans.i <- which(x == i)
+            ans.j <- which(x == j)
+            if(abs(ans.i - ans.j) == 1){
+              ans <- ans.i - ans.j
+            }
+            return(ans)
+            })
+      #test should have one -1, one +1, and rest 0s
+      res <- all.equal(c(-1, rep(0, n - 2), 1), sort(test))
+      if(is.character(res)){
+        print(sprintf("Not a Latin square, conditions %d and %d are not counterbalanced", i, j))
+        return(FALSE)
+      }
+      }
+    }
+  }
+  #If loop hasn't been stopped, then input is a Diagram-balanced Latin square
+  return(TRUE)
+}
+
+###Processing
+
+
+#Set seed
+set.seed(891739)
+#Create vector of scale blocks, randomised
+blocknames <- dat.s %>%
+  pull(scale) %>%
+  unique %>%
+  c("MM") %>%
+  sample(length(.), replace = F)
+#If number of blocks is odd, use both diagram-balanced Latin squares, else randomly select one
+dbls <- length(blocknames) %>%
+  create_dbls(as.letter = F)
+
+###Check if dbls is actually diagram-balanced
+check.dbls <- lapply(dbls, is.dbls)
+if(!all(unlist(check.dbls))){
+    print("Warning: Latin squares are not diagram-balanced. Please check create_dbls function and associated processing.")
+
+} else {
+  print("Latin squares are diagram-balanced.")
+  if((length(blocknames) %% 2) > 0){
+    #If number of blocks is odd, use both
+    dbls <- dbls %>%
+      {do.call("rbind", .)}
+  } else{
+    #randomly sample one of the two DBLS
+  dbls <- dbls %>%
+    {.[[sample(1:2,1)]]}
+  }
+  #Replace each number in DBLS with a block
+  dbls <- dbls %>%
+    apply(1:2, function(x){return(blocknames[x])})
+  #Write dbls to .csv
+  dbls %>%
+    write.table(file="latin-square.txt", row.names=FALSE, col.names=FALSE)
+  #Display latin square
+  dbls
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

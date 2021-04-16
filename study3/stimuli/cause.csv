@@ -1,0 +1,15 @@
+Block,Statement,Proportion,Value,Unit,Formula,Quote,Notes,Source,Page
+RF-emitted-compound,Carbon dioxide emissions,50,1.68,W m-2,value/3.38*100,,Total positive radiative forcing by emissions is 3.38 W m-2,"AR5, WGI, Figure SPM.5",
+RF-emitted-compound,Carbon monoxide emissions,7,0.23,W m-2,value/3.38*100,,,"AR5, WGI, Figure SPM.6",
+RF-emitted-compound,Methane emissions,29,0.97,W m-2,value/3.38*100,,,"AR5, WGI, Figure SPM.7",
+RF-emitted-compound,Halocarbon emissions (can deplete ozone),5,0.18,W m-2,value/3.38*100,,,"AR5, WGI, Figure SPM.8",
+RF-emitted-compound,Emissions of greenhouse gases,89,3,W m-2,value/3.38*100,,"Dropped the 'well-mixed' qualifier, implied from other items","AR5, WGI, Figure SPM.9",
+RF-emitted-compound,Changes in solar activity,1,0.05,W m-2,value/3.38*100,,,"AR5, WGI, Figure SPM.10",
+RF-anthropogenic,"Caused by humans (e.g., emissions, use of land)",Near 100,,,,"""In particular, robust evidence from satellite observations of the solar irradiance and volcanic aerosols demonstrates a near-zero (–0.1 to +0.1 W m–2) change in the natural forcing compared to the anthropogenic ERF increase of 1.0 (0.7 to 1.3) W m–2 from 1980 to 2011. The natural forcing over the last 15 years has likely offset a substantial fraction (at least 30%) of the anthropogenic forcing. {8.5.2; Figures 8.18, 8.19, 8.20}""",,"AR5, WGI",662
+RF-anthropogenic,"Caused by nature (e.g., changes in the sun, volcanic erruptions)",Near 0,,,,"""In particular, robust evidence from satellite observations of the solar irradiance and volcanic aerosols demonstrates a near-zero (–0.1 to +0.1 W m–2) change in the natural forcing compared to the anthropogenic ERF increase of 1.0 (0.7 to 1.3) W m–2 from 1980 to 2011. The natural forcing over the last 15 years has likely offset a substantial fraction (at least 30%) of the anthropogenic forcing. {8.5.2; Figures 8.18, 8.19, 8.20}""",,"AR5, WGI",662
+GHG-eq,Road transportation,10,,,,,,"AR5, WGIII, Figure 1.3(b)",
+GHG-eq,"Other transportation (e.g., plane, ship)",4,,,,,,"AR5, WGIII, Figure 1.3(b)",
+GHG-eq,"Agriculture, forestry, and other land use (not including fires) ",24,,,,,,"AR5, WGIII, Figure 1.3(b)",
+GHG-eq,"Bushfires, forest fires, peatland fires, etc.",1,0.3,GtCO2eq/yr,value/49.5*100,,“biomass fires including peatland fires” release 0.3 GtCO2eq/yr,"AR5, WGIII",829
+GHG-eq,Electricity use for residential buildings ,7,3.5,GtCO2eq/yr,value/49.5*100,"""Most of GHG emissions (6.02 Gt) are indirect CO2 emissions from electricity use in buildings, and these have shown dynamic growth in the studied period in contrast to direct emissions, which have roughly stagnated during these four decades (Figure 9.1).""","According to Figure 9.1, indirect emissions for residential areas are 3.5 GtCO2eq/yr","AR5, WGIII",678
+GHG-eq,"Industrial activity (does not include energy production for transport, buildings, forestry, or other land use) ",31,,,,,,"AR5, WGIII, Figure 1.3(b)",

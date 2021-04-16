@@ -1,0 +1,4 @@
+"cause-s" "conseq" "cause-m" "mitig"
+"cause-m" "cause-s" "mitig" "conseq"
+"mitig" "cause-m" "conseq" "cause-s"
+"conseq" "mitig" "cause-s" "cause-m"

@@ -1,0 +1,50 @@
+code,Item,mms_compat,item.id
+-1,Yet to be classified,0,
+0,I don't know,0,
+1,Funding research to make renewable energy technologies cheaper and more effective,1,mitigation-1
+2,Reducing air pollution from toxic chemicals,1,mitigation-2
+3,"Increasing taxes on all fossil fuels (e.g., gasoline, oil, coal, kerosene)",1,mitigation-3
+4,Changing lifestyles to reduce consumption,1,mitigation-4
+5,Creating an international market to trade permissions to emit carbon dioxide,1,mitigation-5
+6,Requiring cars and trucks to have higher fuel efficiency,1,mitigation-6
+7,Fertilising the oceans to make algae grow,1,mitigation-7
+8,Limiting population growth,1,mitigation-8
+9,Largely replacing fossil fuels with nuclear energy,1,mitigation-9
+10,Putting more dust in the atmosphere,1,mitigation-10
+11,Planting trees,1,mitigation-11
+12,Stop/reduce greenhouse gas emissions/using fossil fuels,0,
+13,Stop over development,0,
+14,Reduce pollution/waste,0,
+15,Reduce dependency on wood and coal fire,0,
+16,Change lifestyles to consume less meat,0,
+17,Adopt more renewable sources of energy,0,
+18,Protect land and ecosystems,0,
+19,Quota on airplane travel,0,
+20,Equality for minimization of electric cars/smart homes,0,
+21,Reduce land clearing,0,
+22,Clear existing pollution/waste,0,
+24,Recycling,0,
+25,Use bio-degradable products,0,
+26,Government,0,
+27,Use less water,0,
+28,Reduce plastic usage,0,
+29,Reduce mining,0,
+31,Extinguish fires sooner,0,
+32,Drive less,0,
+33,Reduce their impact,0,
+34,Adopt electric vehicles,0,
+36,Improve the efficiency of industry,0,
+37,Support political parties that advocate policy changes to fight against climate change,0,
+38,Educate children,0,
+40,Adopt more environmentally-friendly farming practices,0,
+41,Recycle water,0,
+42,Use less farm animals,0,
+43,Raise awareness,0,
+45,Build strong communities,0,
+46,Enhance self-efficacy of individuals to address climate change,0,
+47,Use eco products,0,
+48,Car pooling,0,
+49,Tax manufactures who violate laws,0,
+50,Incentivise manufacturers who reduce emissions,0,
+51,Using less disposable products,0,
+52,Abandon modern manufacturing,0,

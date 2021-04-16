@@ -1,0 +1,64 @@
+code,Item,mms_compat,item.id
+-1,Yet to be classified,0,
+0,I don't know,0,
+1,Food shortages where you live,1,consequence-1
+2,More and larger storms in many parts of the world,1,consequence-2
+3,Disappearance of island nations due to sea level rise,1,consequence-3
+4,Increase in your chances of suffering from a serious disease,1,consequence-4
+5,Increased rates of serious disease all over the world,1,consequence-5
+6,More and longer droughts in many parts of the world,1,consequence-6
+7,Decrease in your standard of living,1,consequence-7
+8,Food shortages in many parts of the world,1,consequence-8
+9,Climate refugees,1,consequence-9
+10,Increased poverty in many parts of the world,1,consequence-10
+11,Massive species extinctions,1,consequence-11
+12,"Melting of global ice (e.g., ice cap, ice sheet)",0,
+13,Increased variability in temperature,0,
+14,Destruction of the coral reefs,0,
+15,More natural disasters,0,
+16,Reduced air quality,0,
+17,Higher sea levels,0,
+18,Plant life is reduced,0,
+20,Chaotic weather conditions,0,
+21,Erosion,0,
+22,Higher temperatures,0,
+23,Increased rates and intensity of heatwaves,0,
+24,Increased variability in rainfall,0,
+25,Increased human mortality rates,0,
+26,Destruction of housing and cities due to sea level rise,0,
+27,Increased occurrence and frequency of fires,0,
+28,Flooding,0,
+29,Water shortages,0,
+30,Less natural resources,0,
+31,Destabilised ecosystem,0,
+32,More rain,0,
+33,Beginning of ice age,0,
+34,Less oxygen in the atmosphere,0,
+35,More extreme political debates,0,
+36,Humans growing more trees,0,
+37,Humans using less plastic,0,
+38,Impacts for poorer nations,0,
+39,Less snow coverage,0,
+40,Changes in coastline,0,
+41,More carbon dioxide,0,
+42,Lower temperatures,0,
+43,No change in temperatures,0,
+45,More arid land,0,
+46,Extreme weather,0,
+47,Acidification of the ocean,0,
+48,Larger number of cows,0,
+49,Extreme cold weather,0,
+50,Loss of animal habitats,0,
+51,More greenhouse emissions,0,
+52,More earthquakes,0,
+53,Changes in rainfall,0,
+54,Very little impacts,0,
+55,Careless and damaging human interventions,0,
+56,Changes in seasonal cycles,0,
+57,Increased intensity of cold snaps,0,
+58,Decreased quality of water supply,0,
+59,Humans grow accustomed to warmer weather,0,
+61,Burning of coal,0,
+65,Increased pollution,0,
+66,Disposal of plastic and litter into the ocean,0,
+67,Loss of animal life,0,

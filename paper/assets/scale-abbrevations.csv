@@ -1,0 +1,29 @@
+abbrev,scale,subscale
+BFI_A,Big Five Inventory-10,Agreeableness
+BFI_C,Big Five Inventory-10,Conscientiousness
+BFI_E,Big Five Inventory-10,Extraversion
+BFI_N,Big Five Inventory-10,Neuroticism
+BFI_O,Big Five Inventory-10,Openness
+CFC_F,Consideration of Future Consequences (Short),Orientation to future goals
+CFC_I,Consideration of Future Consequences (Short),Orientation to immediate goal
+CI,Conspiratorial Ideation,
+EWS_D,Environmental Worldview Scale,Environment as ductile
+EWS_E,Environmental Worldview Scale,Environment as elastic
+KV,Knowledge Volume,
+MMS_CAU_C,Mental Model Scale (Cause),Carbon emissions
+MMS_CAU_E,Mental Model Scale (Cause),Environmental harms
+MMS_CAU_N,Mental Model Scale (Cause),Natural causes
+MMS_CON_P,Mental Model Scale (Consequences),Personal consequences
+MMS_CON_S,Mental Model Scale (Consequences),Societal consequences
+MMS_HUM,Mental Model Scale (Anthropogenic),Human contribution
+MMS_MIT_C,Mental Model Scale (Mitigation),Carbon policies
+MMS_MIT_E,Mental Model Scale (Mitigation),Green policies
+MMS_MIT_G,Mental Model Scale (Mitigation),Engineering policies
+NCS,Need for Cognition,
+PI,Political Ideology,
+SJ,System Justification,
+SS_E,Scepticism Scale,Epistemic
+SS_R,Scepticism Scale,Response
+SVSS_C,Schwartz Value Scale (Short),Conservation
+SVSS_ST,Schwartz Value Scale (Short),Self-transcendence
+W,Worry,

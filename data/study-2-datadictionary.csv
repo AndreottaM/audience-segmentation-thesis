@@ -1,0 +1,334 @@
+Variable,Variable name (raw),Variable name (clean),Measurement unit,Allowed values,Description
+Date of Survey Start,StartDate,time_start,DD/MM/YYYY hh:mm:ss AM/PM,Any date,Date when survey was started
+Date of Survey Finish,EndDate,time_end,DD/MM/YYYY hh:mm:ss AM/PM,Any date,Date when survey was completed
+Survey Progress,Progress,N/A,Numeric,0-100,Percentage of survey completed
+Survey Duration,Duration..in.seconds.,time_to_complete,Numeric,0-Inf,Time in seconds
+Survey Completed,Finished,N/A,Numeric,1 = Survey completed,Indication of whether survey was completed
+Browser,Q999_Browser,specs_Browser,Text,text,Browser used by participant
+Browser Version,Q999_Version,specs_Version,Text,text,Browser version used by participant
+Operating System,Q999_Operating.System,specs_Operating.System,Text,text,Operating system used by participant
+Screen Resolution,Q999_Resolution,specs_Resolution,Text,text,Screen resolution used by participant
+N/A,Q2_First.Click,pifFirst.Click,N/A,N/A,"Would have recorded timing information regarding the participant information sheet, but error meant no record was kept."
+N/A,Q2_Last.Click,pifLast.Click,N/A,N/A,"Would have recorded timing information regarding the participant information sheet, but error meant no record was kept."
+N/A,Q2_Page.Submit,pifPage.Submit,N/A,N/A,"Would have recorded timing information regarding the participant information sheet, but error meant no record was kept."
+N/A,Q2_Click.Count,pifClick.Count,N/A,N/A,"Would have recorded timing information regarding the participant information sheet, but error meant no record was kept."
+Consent,Q3,pcf,Numeric,"1 = Yes, 2 = No",
+Time to first click on page showing Q3,Q5_First.Click,pcf_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q3,Q5_Last.Click,pcf_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q3,Q5_Page.Submit,pcf_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q3,Q5_Click.Count,pcf_Click.Count,Numeric,1-Inf,
+Age,Q7,age,Numeric,18-Inf,Age of participant in years
+Gender,Q8,gender,Numeric,"1 = Male, 2 = Female, 3 = Other",Gender of participant
+Time to first click on page showing Q8,Q9_First.Click,demographics_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q8,Q9_Last.Click,demographics_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q8,Q9_Page.Submit,demographics_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q8,Q9_Click.Count,demographics_Click.Count,Numeric,1-Inf,
+Q sort complete code,Q11,code_entered,Numeric,0000000-9999999,Participant completes Q sort then enters their code. This information and timing information is used to match Qualtrics data with Q sort data
+Time to first click on page showing Q11,Q12_First.Click,qualtrics_qsort_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q11,Q12_Last.Click,qualtrics_qsort_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q11,Q12_Page.Submit,qualtrics_qsort_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q11,Q12_Click.Count,qualtrics_qsort_Click.Count,Numeric,1-Inf,
+Time to first click on page showing Q14,Q14_First.Click,qualtrics_suvery_info_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q14,Q14_Last.Click,qualtrics_suvery_info_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q14,Q14_Page.Submit,qualtrics_suvery_info_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q14,Q14_Click.Count,qualtrics_suvery_info_Click.Count,Numeric,1-Inf,
+SS-1,Q15_1,SS_1,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-2,Q15_2,SS_2,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-3,Q15_3,SS_3,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-4,Q15_4,SS_4,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-5,Q15_5,SS_5,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-6,Q15_6,SS_6,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-7,Q15_7,SS_7,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-8,Q15_8,SS_8,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-9,Q15_9,SS_9,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-10,Q15_10,SS_10,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-11,Q15_11,SS_11,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-12,Q15_12,SS_12,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-13,Q15_13,SS_13,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-14,Q15_14,SS_14,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SS-15,Q15_15,SS_15,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q15,Q16_First.Click,SS_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q15,Q16_Last.Click,SS_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q15,Q16_Page.Submit,SS_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q15,Q16_Click.Count,SS_Click.Count,Numeric,1-Inf,
+PA,Q17,PA,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q17,Q18_First.Click,PA_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q17,Q18_Last.Click,PA_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q17,Q18_Page.Submit,PA_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q17,Q18_Click.Count,PA_Click.Count,Numeric,1-Inf,
+NCS-6,Q19_1,NCS_6_1,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+NCS-6,Q19_2,NCS_6_2,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+NCS-6,Q19_3,NCS_6_3,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+NCS-6,Q19_4,NCS_6_4,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+NCS-6,Q19_5,NCS_6_5,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+NCS-6,Q19_6,NCS_6_6,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q19,Q20_First.Click,NCS_6_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q19,Q20_Last.Click,NCS_6_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q19,Q20_Page.Submit,NCS_6_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q19,Q20_Click.Count,NCS_6_Click.Count,Numeric,1-Inf,
+human,Q21,MMS_human,Numeric,1-7,"""How likely do you think it is that human actions have changed global climate?"""
+Time to first click on page showing Q21,Q22_First.Click,MMS_human_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q21,Q22_Last.Click,MMS_human_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q21,Q22_Page.Submit,MMS_human_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q21,Q22_Click.Count,MMS_human_Click.Count,Numeric,1-Inf,
+cause-1,Q23_1,MMS_cause_1,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-2,Q23_2,MMS_cause_2,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-3,Q23_3,MMS_cause_3,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-4,Q23_4,MMS_cause_4,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-5,Q23_5,MMS_cause_5,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-6,Q23_6,MMS_cause_6,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-7,Q23_7,MMS_cause_7,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-8,Q23_8,MMS_cause_8,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-9,Q23_9,MMS_cause_9,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-10,Q23_10,MMS_cause_10,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-11,Q23_11,MMS_cause_11,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-12,Q23_12,MMS_cause_12,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+cause-13,Q23_13,MMS_cause_13,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q23,Q24_First.Click,MMS_cause_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q23,Q24_Last.Click,MMS_cause_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q23,Q24_Page.Submit,MMS_cause_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q23,Q24_Click.Count,MMS_cause_Click.Count,Numeric,1-Inf,
+consequence-1,Q25_1,MMS_consequence_1,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-2,Q25_2,MMS_consequence_2,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-3,Q25_3,MMS_consequence_3,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-4,Q25_4,MMS_consequence_4,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-5,Q25_5,MMS_consequence_5,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-6,Q25_6,MMS_consequence_6,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-7,Q25_7,MMS_consequence_7,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-8,Q25_8,MMS_consequence_8,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-9,Q25_9,MMS_consequence_9,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-10,Q25_10,MMS_consequence_10,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+consequence-11,Q25_11,MMS_consequence_11,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q25,Q26_First.Click,MMS_consequence_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q25,Q26_Last.Click,MMS_consequence_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q25,Q26_Page.Submit,MMS_consequence_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q25,Q26_Click.Count,MMS_consequence_Click.Count,Numeric,1-Inf,
+mitigation-1,Q27_1,MMS_mitigation_1,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-2,Q27_2,MMS_mitigation_2,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-3,Q27_3,MMS_mitigation_3,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-4,Q27_4,MMS_mitigation_4,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-5,Q27_5,MMS_mitigation_5,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-6,Q27_6,MMS_mitigation_6,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-7,Q27_7,MMS_mitigation_7,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-8,Q27_8,MMS_mitigation_8,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-9,Q27_9,MMS_mitigation_9,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-10,Q27_10,MMS_mitigation_10,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+mitigation-11,Q27_11,MMS_mitigation_11,Numeric,1-7,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q27,Q28_First.Click,MMS_mitigation_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q27,Q28_Last.Click,MMS_mitigation_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q27,Q28_Page.Submit,MMS_mitigation_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q27,Q28_Click.Count,MMS_mitigation_Click.Count,Numeric,1-Inf,
+SVSS-1,Q29_1,SVSS_1,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-2,Q29_2,SVSS_2,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-3,Q29_3,SVSS_3,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-4,Q29_4,SVSS_4,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-5,Q29_5,SVSS_5,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-6,Q29_6,SVSS_6,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-7,Q29_7,SVSS_7,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-8,Q29_8,SVSS_8,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-9,Q29_9,SVSS_9,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SVSS-10,Q29_10,SVSS_10,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q29,Q30_First.Click,SVSS_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q29,Q30_Last.Click,SVSS_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q29,Q30_Page.Submit,SVSS_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q29,Q30_Click.Count,SVSS_Click.Count,Numeric,1-Inf,
+KV-1,Q31,KV,Numeric,1-4,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q31,Q32_First.Click,KV_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q31,Q32_Last.Click,KV_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q31,Q32_Page.Submit,KV_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q31,Q32_Click.Count,KV_Click.Count,Numeric,1-Inf,
+SJ-1,Q33_1,SJ_1,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SJ-2,Q33_2,SJ_2,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SJ-3,Q33_3,SJ_3,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SJ-4,Q33_4,SJ_4,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SJ-5,Q33_5,SJ_5,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SJ-6,Q33_6,SJ_6,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SJ-7,Q33_7,SJ_7,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+SJ-8,Q33_8,SJ_8,Numeric,1-9,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q33,Q34_First.Click,SJ_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q33,Q34_Last.Click,SJ_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q33,Q34_Page.Submit,SJ_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q33,Q34_Click.Count,SJ_Click.Count,Numeric,1-Inf,
+CI-1,Q35_1,CI_1,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CI-2,Q35_2,CI_2,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CI-3,Q35_3,CI_3,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CI-4,Q35_4,CI_4,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CI-5,Q35_5,CI_5,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CI-6,Q35_6,CI_6,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q35,Q36_First.Click,CI_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q35,Q36_Last.Click,CI_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q35,Q36_Page.Submit,CI_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q35,Q36_Click.Count,CI_Click.Count,Numeric,1-Inf,
+W-1,Q37,W,Numeric,1-4,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q37,Q38_First.Click,W_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q37,Q38_Last.Click,W_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q37,Q38_Page.Submit,W_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q37,Q38_Click.Count,W_Click.Count,Numeric,1-Inf,
+CFC-S-1,Q39_1,CFC_S_1,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-2,Q39_2,CFC_S_2,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-3,Q39_3,CFC_S_3,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-4,Q39_4,CFC_S_4,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-5,Q39_5,CFC_S_5,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-6,Q39_6,CFC_S_6,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-7,Q39_7,CFC_S_7,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-8,Q39_8,CFC_S_8,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+CFC-S-9,Q39_9,CFC_S_9,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q39,Q40_First.Click,CFC_S_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q39,Q40_Last.Click,CFC_S_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q39,Q40_Page.Submit,CFC_S_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q39,Q40_Click.Count,CFC_S_Click.Count,Numeric,1-Inf,
+BFI-10-1,Q41_1,BFI_10_1,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-2,Q41_2,BFI_10_2,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-3,Q41_3,BFI_10_3,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-4,Q41_4,BFI_10_4,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-5,Q41_5,BFI_10_5,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-6,Q41_6,BFI_10_6,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-7,Q41_7,BFI_10_7,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-8,Q41_8,BFI_10_8,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-9,Q41_9,BFI_10_9,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+BFI-10-10,Q41_10,BFI_10_10,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q41,Q42_First.Click,BFI_10_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q41,Q42_Last.Click,BFI_10_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q41,Q42_Page.Submit,BFI_10_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q41,Q42_Click.Count,BFI_10_Click.Count,Numeric,1-Inf,
+EWS-1,Q43_1,EWS_1,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-2,Q43_2,EWS_2,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-3,Q43_3,EWS_3,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-4,Q43_4,EWS_4,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-5,Q43_5,EWS_5,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-6,Q43_6,EWS_6,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-7,Q43_7,EWS_7,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-8,Q43_8,EWS_8,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-9,Q43_9,EWS_9,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-10,Q43_10,EWS_10,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-11,Q43_11,EWS_11,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+EWS-12,Q43_12,EWS_12,Numeric,1-5,"Survey item, refer to study2/study/surveyscales-new.csv for full description"
+Time to first click on page showing Q43,Q44_First.Click,EWS_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q43,Q44_Last.Click,EWS_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q43,Q44_Page.Submit,EWS_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q43,Q44_Click.Count,EWS_Click.Count,Numeric,1-Inf,
+Q sort ID,UniqueID,,Numeric,0-9999999,Randomly assigned number to each participant. Used to link Qualtrics data with Q sort data.
+Q sort character ID,CharID,qs,Text,0000000-9999999,"As per UniqueID, but text"
+Q sort password,code,pass,Numeric,0-9999999,A password that corresponds to UniqueID/CharID. Participants recieve this after completing the Q sort. The password must be entered into Qualtrics to continue with the survey.
+Latin Square assignment (not used),latin,latin,Numeric,1-12,Error in coding meant this score is irrelevant
+Time to complete survey,Q_TotalDuration,,Numeric,0-Inf,Total time to complete survey (measured in seconds)
+Lucid,Lucid,Lucid,Text,"Blank if no, ""Yes"" if Lucid detects poor quality responses","Lucid detection, see if ""yes"", Lucid sample provider indicates survey is of poor quality"
+Completed survey,gc,,Numeric,1,"Score of ""1"" indicates entire survey is completed"
+NULL,term,term,NULL,NULL,NULL
+Age Group,AgeGroup,AgeGroup,Text,Varies,"Indicates age group of participant (incomplete). Do not use this data. Instead, use the age variable."
+Latin Square assignment (true),Group,Group,Numeric,1-12,"Number indicates the order of adminstration of survey scales (e.g., 1 = ""SS"" ""PA"" ""NCS-6"" ""MM"" ""SVSS"" ""KV"" ""SJ"" ""CI"" ""W"" ""CFC-S"" ""BFI-10"" ""EWS""). Number corresponds to the row of study2/study/latin-square.txt"
+Panel Info,LS,LS,Text,Varies,"Irrelevant for analysis, related to panel provider"
+Internal ID,id,id,Numeric,1-Inf,Internal ID assigned to participants
+Completion Order,completion_order,completion_order,,1-Inf,"Order in which participants completed the survey. That is, completion_order = 1 was first participant to complete survey."
+Preference assigned to statement order = 1,study-2-qsort.csv - Column 1,pref_sta_1,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 2,study-2-qsort.csv - Column 2,pref_sta_2,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 3,study-2-qsort.csv - Column 3,pref_sta_3,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 4,study-2-qsort.csv - Column 4,pref_sta_4,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 5,study-2-qsort.csv - Column 5,pref_sta_5,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 6,study-2-qsort.csv - Column 6,pref_sta_6,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 7,study-2-qsort.csv - Column 7,pref_sta_7,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 8,study-2-qsort.csv - Column 8,pref_sta_8,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 9,study-2-qsort.csv - Column 9,pref_sta_9,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 10,study-2-qsort.csv - Column 10,pref_sta_10,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 11,study-2-qsort.csv - Column 11,pref_sta_11,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 12,study-2-qsort.csv - Column 12,pref_sta_12,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 13,study-2-qsort.csv - Column 13,pref_sta_13,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 14,study-2-qsort.csv - Column 14,pref_sta_14,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 15,study-2-qsort.csv - Column 15,pref_sta_15,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 16,study-2-qsort.csv - Column 16,pref_sta_16,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 17,study-2-qsort.csv - Column 17,pref_sta_17,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 18,study-2-qsort.csv - Column 18,pref_sta_18,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 19,study-2-qsort.csv - Column 19,pref_sta_19,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 20,study-2-qsort.csv - Column 20,pref_sta_20,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 21,study-2-qsort.csv - Column 21,pref_sta_21,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 22,study-2-qsort.csv - Column 22,pref_sta_22,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 23,study-2-qsort.csv - Column 23,pref_sta_23,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 24,study-2-qsort.csv - Column 24,pref_sta_24,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 25,study-2-qsort.csv - Column 25,pref_sta_25,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 26,study-2-qsort.csv - Column 26,pref_sta_26,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 27,study-2-qsort.csv - Column 27,pref_sta_27,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 28,study-2-qsort.csv - Column 28,pref_sta_28,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 29,study-2-qsort.csv - Column 29,pref_sta_29,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+Preference assigned to statement order = 30,study-2-qsort.csv - Column 30,pref_sta_30,Text,"""Like"", ""Neutral"", ""Unlike""","Participant indicated whether a statement was like their point of view (3 categorical options). For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 1",study-2-qsort.csv - Column 31,reason_sta_1,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 2",study-2-qsort.csv - Column 32,reason_sta_2,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 3",study-2-qsort.csv - Column 33,reason_sta_3,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 4",study-2-qsort.csv - Column 34,reason_sta_4,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 5",study-2-qsort.csv - Column 35,reason_sta_5,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 6",study-2-qsort.csv - Column 36,reason_sta_6,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 7",study-2-qsort.csv - Column 37,reason_sta_7,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 8",study-2-qsort.csv - Column 38,reason_sta_8,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 9",study-2-qsort.csv - Column 39,reason_sta_9,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 10",study-2-qsort.csv - Column 40,reason_sta_10,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 11",study-2-qsort.csv - Column 41,reason_sta_11,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 12",study-2-qsort.csv - Column 42,reason_sta_12,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 13",study-2-qsort.csv - Column 43,reason_sta_13,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 14",study-2-qsort.csv - Column 44,reason_sta_14,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 15",study-2-qsort.csv - Column 45,reason_sta_15,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 16",study-2-qsort.csv - Column 46,reason_sta_16,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 17",study-2-qsort.csv - Column 47,reason_sta_17,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 18",study-2-qsort.csv - Column 48,reason_sta_18,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 19",study-2-qsort.csv - Column 49,reason_sta_19,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 20",study-2-qsort.csv - Column 50,reason_sta_20,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 21",study-2-qsort.csv - Column 51,reason_sta_21,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 22",study-2-qsort.csv - Column 52,reason_sta_22,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 23",study-2-qsort.csv - Column 53,reason_sta_23,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 24",study-2-qsort.csv - Column 54,reason_sta_24,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 25",study-2-qsort.csv - Column 55,reason_sta_25,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 26",study-2-qsort.csv - Column 56,reason_sta_26,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 27",study-2-qsort.csv - Column 57,reason_sta_27,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 28",study-2-qsort.csv - Column 58,reason_sta_28,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 29",study-2-qsort.csv - Column 59,reason_sta_29,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+"Reason for placing at extreme, statement order = 30",study-2-qsort.csv - Column 60,reason_sta_30,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 1,study-2-qsort.csv - Column 61,sort_sta_1,Text,Open-ended / NA,"Participants justification for rating this statemant as the one most like/unlike their most of view. ""NA"" indicates participant did not place this statement at an extreme. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 2,study-2-qsort.csv - Column 62,sort_sta_2,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C9","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 3,study-2-qsort.csv - Column 63,sort_sta_3,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C10","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 4,study-2-qsort.csv - Column 64,sort_sta_4,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C11","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 5,study-2-qsort.csv - Column 65,sort_sta_5,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C12","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 6,study-2-qsort.csv - Column 66,sort_sta_6,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C13","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 7,study-2-qsort.csv - Column 67,sort_sta_7,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C14","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 8,study-2-qsort.csv - Column 68,sort_sta_8,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C15","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 9,study-2-qsort.csv - Column 69,sort_sta_9,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C16","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 10,study-2-qsort.csv - Column 70,sort_sta_10,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C17","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 11,study-2-qsort.csv - Column 71,sort_sta_11,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C18","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 12,study-2-qsort.csv - Column 72,sort_sta_12,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C19","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 13,study-2-qsort.csv - Column 73,sort_sta_13,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C20","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 14,study-2-qsort.csv - Column 74,sort_sta_14,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C21","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 15,study-2-qsort.csv - Column 75,sort_sta_15,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C22","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 16,study-2-qsort.csv - Column 76,sort_sta_16,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C23","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 17,study-2-qsort.csv - Column 77,sort_sta_17,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C24","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 18,study-2-qsort.csv - Column 78,sort_sta_18,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C25","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 19,study-2-qsort.csv - Column 79,sort_sta_19,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C26","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 20,study-2-qsort.csv - Column 80,sort_sta_20,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C27","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 21,study-2-qsort.csv - Column 81,sort_sta_21,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C28","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 22,study-2-qsort.csv - Column 82,sort_sta_22,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C29","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 23,study-2-qsort.csv - Column 83,sort_sta_23,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C30","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 24,study-2-qsort.csv - Column 84,sort_sta_24,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C31","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 25,study-2-qsort.csv - Column 85,sort_sta_25,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C32","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 26,study-2-qsort.csv - Column 86,sort_sta_26,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C33","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 27,study-2-qsort.csv - Column 87,sort_sta_27,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C34","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 28,study-2-qsort.csv - Column 88,sort_sta_28,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C35","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 29,study-2-qsort.csv - Column 89,sort_sta_29,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C36","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Placement in Q sort of statement order = 30,study-2-qsort.csv - Column 90,sort_sta_30,Text,"C1, C2, C3, C4, C5, C6, C7, C8, C37","Participant allocation of statement in the Q sort. C1 is the most extreme ""unlike"" column, C9 is the most extreme ""like"" column, C5 is the middle column, etc. For specific statement, see study2/studyd/q-statement-ordered.csv."
+Time to complete instruction page,study-2-qsort.csv - Column 91,time_instruct,Numeric,0-Inf,Measured in seconds
+Time to complete pilot questions,study-2-qsort.csv - Column 92,time_pilot,Numeric,0-Inf,Measured in seconds
+Time to complete preference assignment,study-2-qsort.csv - Column 93,time_pref,Numeric,0-Inf,Measured in seconds
+Time to complete reason questions,study-2-qsort.csv - Column 94,time_reason,Numeric,0-Inf,Measured in seconds
+Time to complete Q sort,study-2-qsort.csv - Column 95,time_sort,Numeric,0-Inf,Measured in seconds
+"Frequency of ""No room"" error messages",study-2-qsort.csv - Column 96,count_noroom,Numeric,0-Inf,Number of times participant triggered an error message when attempting to place a card in a Q sort column with no remaining room.
+"Frequency of ""Inconsistency"" error messages",study-2-qsort.csv - Column 97,count_incon,Numeric,0-Inf,Number of times participant triggered an error message when attempting to place a preference-incongrueous statement at one end of the Q sort.
+"Supress ""no room"" error messages",study-2-qsort.csv - Column 98,supress_noroom,Logical,TRUE/FALSE,Whether participant opted to suppress error messages that trigger when attempting to place a card in a Q sort column with no remaining room.
+"Supress ""Inconsistency"" error messages",study-2-qsort.csv - Column 99,supress_incon,Logical,TRUE/FALSE,Whether participant opted to suppress an error message that triggered when attempting to place a preference-incongrueous statement at one end of the Q sort.
+Response to pilot question 1,study-2-qsort.csv - Column 100,pilot_response1,Text,Open-ended / NA,"As this study did not involve piloting the Q sort, this question was ommited (all responses = ""NA"")"
+Response to pilot question 2,study-2-qsort.csv - Column 101,pilot_response2,Text,Open-ended / NA,"As this study did not involve piloting the Q sort, this question was ommited (all responses = ""NA"")"
+Q sort card placement frequency,study-2-qsort.csv - Column 102,place_grid,Numeric,30-Inf,How many times a card was placed in the Q sort grid.
+"Q sort card placement frequency, in available area",study-2-qsort.csv - Column 103,place_avail,Numeric,0-Inf,How many times a card was placed in the Q sort available area (the stack of cards that required sorting).
+"Q sort card placement frequency, in temporary area",study-2-qsort.csv - Column 104,place_spare,Numeric,0-Inf,How many cards were placed in the temporary holding area
+"Q sort card placement frequency, maximum in temporary area",study-2-qsort.csv - Column 105,place_spare_max,Numeric,0-Inf,"The maximum number of cards placed in the temporary holding area, at any one time."
+Q sort character ID,study-2-qsort.csv - Column 106,qs,Text,0000000-9999999,"As per UniqueID, but text"
+Q sort password,study-2-qsort.csv - Column 107,pass,Numeric,0-9999999,A password that corresponds to UniqueID/CharID. Participants recieve this after completing the Q sort. The password must be entered into Qualtrics to continue with the survey.
+Time participant started the Q sort,study-2-qsort.csv - Column 108,time_start_qsort,Date,DD/MM/YYYY hh:mm:ss,Date and time participant opened the Q sort web application. Used with timing data to match participants to Qualtrics data.
+,,,,,
+,,,,,
+,,,,,
+,,,,,

@@ -1,0 +1,16 @@
+model,change_1,change_2
+Intercept only.,24.17,27.21
+Main effect of S.,19.60,30.31
+Main effect of BC1.,18.07,26.19
+Main effect of BC2.,11.54,4.80
+Main effect of S and BC1.,13.76,29.31
+Main effect of S and BC2.,8.18,8.36
+Main effect of BC1 and BC2.,8.21,5.79
+"Main effect of S, BC1, and BC2.",4.96,9.34
+"Main effect of S and BC1, Interaction of S with BC1.",15.47,32.08
+"Main effect of S, BC1, and BC2, Interaction of S with BC1.",7.06,12.41
+"Main effect of S and BC2, Interaction of S with BC2.",3.55,0.00
+"Main effect of S, BC1, and BC2, Interaction of S with BC2.",0.00,0.97
+"Main effect of BC1 and BC2, Interaction of BC1 with BC2",12.93,20.42
+"Main effect of S, BC1, and BC2, Interaction of BC1 with BC2.",8.76,23.45
+"Main effect of S, BC1, and BC2, Interaction of S with BC1 with BC2.",15.53,24.69

@@ -1,0 +1,143 @@
+Variable,Variable name (raw),Variable name (clean),Measurement unit,Allowed values,Description
+Time to complete survey,Duration..in.seconds.,time,Numeric,0-Inf,Measured in seconds
+Time to first click on page showing participant information form,Q54_First.Click,pif_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing participant information form,Q54_Last.Click,pif_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing participant information form,Q54_Page.Submit,pif_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing participant information form,Q54_Click.Count,pif_Click.Count,Numeric,1-Inf,
+Consent,Q48,pcf,Numeric,"1 = Yes, 2 = No",Particiapnt read a consent form and indicated whether they provide informed consent to the study
+Time to first click on page showing participant consent form,Q55_First.Click,pcf_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing participant consent form,Q55_Last.Click,pcf_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing participant consent form,Q55_Page.Submit,pcf_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing participant consent form,Q55_Click.Count,pcf_Click.Count,Numeric,1-Inf,
+Age,Q42,age,Numeric,18-Inf,Age of participant in years
+Gender,Q44,gender,Numeric,"1 = Male, 2 = Female, 3 = Other",Gender of participant
+Education,Q45,education,Numeric,"1 = Primary school, 2 = High school/tertiary school, 3 = trade/tafe qualification, 4 = undergraduate degree, 5 = postgraduate qualification",Level of participant education
+Willing to continue,Q46,willing,Numeric,"1 = Yes, 2 = No","Question was worded ""This study will require you to write out several of your responses. Are you willing to continue with this study? If you select no, the survey will be closed."""
+Time to first click on page showing demographic questions,Q53_First.Click,demographics_First.Click,Numeric,0-Inf,"Due to error, this was not recorded"
+Time to last click on page showing demographic questions,Q53_Last.Click,demographics_Last.Click,Numeric,0-Inf,"Due to error, this was not recorded"
+Time to submission of page showing demographic questions,Q53_Page.Submit,demographics_Page.Submit,Numeric,0-Inf,"Due to error, this was not recorded"
+Total clicks on page showing demographic questions,Q53_Click.Count,demographics_Click.Count,Numeric,1-Inf,"Due to error, this was not recorded"
+Climate change definition,Q10,define,Text,Any text,Participant described climate change in their own words
+Time to first click on page showing Q10,Q50_First.Click,define_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q10,Q50_Last.Click,define_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q10,Q50_Page.Submit,define_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q10,Q50_Click.Count,define_Click.Count,Numeric,1-Inf,
+Climate change happening,Q11,happening,Numeric,"1 = Yes, 2 = Maybe, 3 = No",Participant indicated whether climate change is currently happening
+Time to first click on page showing Q11,Q51_First.Click,happening_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q11,Q51_Last.Click,happening_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q11,Q51_Page.Submit,happening_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q11,Q51_Click.Count,happening_Click.Count,Numeric,1-Inf,
+Climate change possible,Q13,possible,Numeric,"1 = Yes, 2 = Maybe, 3 = No",Participant indicated whether climate change was possible. Only asked for those who indicated climate change was not currently happening (Q11/happening = 3)
+Time to first click on page showing Q13,Q52_First.Click,possible_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q13,Q52_Last.Click,possible_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q13,Q52_Page.Submit,possible_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q13,Q52_Click.Count,possible_Click.Count,Numeric,1-Inf,
+Comprehension,Q1,list.test,Numeric,text,Comprehension check to ensure participant understood the free list task. Required participants to list three animals.
+Time to first click on page showing Q1,Q56_First.Click,list.test_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q1,Q56_Last.Click,list.test_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q1,Q56_Page.Submit,list.test_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing response to Q1,Q56_Click.Count,list.test_Click.Count,Numeric,1-Inf,
+Time to first click on page showing response to Q1,Q57_First.Click,list.test.check_First.Click,Numeric,0-Inf,Measured in seconds. Participant could view their response and make changes.
+Time to last click on page showing response to Q1,Q57_Last.Click,list.test.check_Last.Click,Numeric,0-Inf,Measured in seconds. Participant could view their response and make changes.
+Time to submission of page showing response to Q1,Q57_Page.Submit,list.test.check_Page.Submit,Numeric,0-Inf,Measured in seconds. Participant could view their response and make changes.
+Total clicks on page showing response to Q1,Q57_Click.Count,list.test.check_Click.Count,Numeric,1-Inf,Participant could view their response and make changes.
+N/A,X1_Q25,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X1_Q60_First.Click,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X1_Q60_Last.Click,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X1_Q60_Page.Submit,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X1_Q60_Click.Count,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+List of causes,X1_Q20,list.cause,Text,text,Free list of climate change causes
+Comments on list of causes,X1_Q24,list.cause.comment,Text,text,"Participant comment to ""help researchers understand your list"""
+Time to first click on page showing X1_Q20 & X1_Q24,X1_Q61_First.Click,list.cause_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing X1_Q20 & X1_Q24,X1_Q61_Last.Click,list.cause_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing X1_Q20 & X1_Q24,X1_Q61_Page.Submit,list.cause_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing X1_Q20 & X1_Q24,X1_Q61_Click.Count,list.cause_Click.Count,Numeric,1-Inf,
+N/A,X2_Q25,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X2_Q60_First.Click,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X2_Q60_Last.Click,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X2_Q60_Page.Submit,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+N/A,X2_Q60_Click.Count,N/A,N/A,N/A,"Not applicable, as participants never encountered this measure."
+List of consequences,X2_Q20,list.conseq,Text,text,Free list of climate change consequences
+Comments on list of consequences,X2_Q24,list.conseq.comment,Text,text,"Participant comment to ""help researchers understand your list"""
+Time to first click on page showing X2_Q20 & X2_Q24,X2_Q61_First.Click,list.conseq_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing X2_Q20 & X2_Q24,X2_Q61_Last.Click,list.conseq_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing X2_Q20 & X2_Q24,X2_Q61_Page.Submit,list.conseq_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing X2_Q20 & X2_Q24,X2_Q61_Click.Count,list.conseq_Click.Count,Numeric,1-Inf,
+Can society mitigate climate change (the issue or idea)?,X3_Q25,can.mitigate,Numeric,"1 = Yes, 2 = Maybe, 3 = No","Wording differed depending on *condition*. If condition = 1, ""Could society do something to stop or reduce climate change?"". If condition = 2, ""Suppose climate change is occuring. In this situation, could society do something to stop or reduce climate change?"". If condition = 3, ""Suppose some climate scientists claim they believe climate change is happening. In this situation, could society do something to stop or reduce the claims of these climate scientists?"""
+Time to first click on page showing X3_Q25,X3_Q60_First.Click,can.mitigate_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing X3_Q25,X3_Q60_Last.Click,can.mitigate_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing X3_Q25,X3_Q60_Page.Submit,can.mitigate_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing X3_Q25,X3_Q60_Click.Count,can.mitigate_Click.Count,Numeric,1-Inf,
+List of mitigation strategies,X3_Q20,list.mitig,Text,text,Free list of mitigation strategies
+Comments on list of mitigation strategies,X3_Q24,list.mitig.comment,Text,text,"Participant comment to ""help researchers understand your list"""
+Time to first click on page showing X3_Q20 & X3_Q24,X3_Q61_First.Click,list.mitig_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing X3_Q20 & X3_Q24,X3_Q61_Last.Click,list.mitig_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing X3_Q20 & X3_Q24,X3_Q61_Page.Submit,list.mitig_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing X3_Q20 & X3_Q24,X3_Q61_Click.Count,list.mitig_Click.Count,Numeric,1-Inf,
+Mental model scale: cause 01,Q28_1,mms.cause_1,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Carbon dioxide emissions"""
+Mental model scale: cause 02,Q28_2,mms.cause_2,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Volcanic eruptions"
+Mental model scale: cause 03,Q28_3,mms.cause_3,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Destruction of tropical forests"
+Mental model scale: cause 04,Q28_4,mms.cause_4,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Livestock production"
+Mental model scale: cause 05,Q28_5,mms.cause_5,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Nuclear energy"
+Mental model scale: cause 06,Q28_6,mms.cause_6,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: People heating and cooling their homes"
+Mental model scale: cause 07,Q28_7,mms.cause_7,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: The ozone hole in the upper atmosphere"
+Mental model scale: cause 08,Q28_8,mms.cause_8,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Population growth"
+Mental model scale: cause 09,Q28_9,mms.cause_9,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: People driving their cars"
+Mental model scale: cause 10,Q28_10,mms.cause_10,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Use of electricity from coal and oil"
+Mental model scale: cause 11,Q28_11,mms.cause_11,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: The use of aerosol spray cans"
+Mental model scale: cause 12,Q28_12,mms.cause_12,Numeric,"1-7 (1 = ""Not a cause at all"", 7 = ""A major cause"")","Question = ""Please indicate to what extent each of the following is a cause of climate change, to the best of your knowledge: Air pollution from toxic chemicals"
+Comment on Mental Model Scale (Cause),Q37,mms.cause.comment,Text,text,"Question = ""Do you have any recommendations for improving the survey questions on this page?"""
+Time to first click on page showing Q28 & Q37,Q64_First.Click,mms.cause_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q28 & Q37,Q64_Last.Click,mms.cause_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q28 & Q37,Q64_Page.Submit,mms.cause_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q28 & Q37,Q64_Click.Count,mms.cause_Click.Count,Numeric,1-Inf,
+Mental model scale: consequence 01,Q32_1,mms.conseq_1,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Food shortages where you live"
+Mental model scale: consequence 02,Q32_2,mms.conseq_2,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: More and larger storms in many parts of the world"
+Mental model scale: consequence 03,Q32_3,mms.conseq_3,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Disappearance of island nations due to sea level rise"
+Mental model scale: consequence 04,Q32_4,mms.conseq_4,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Increase in your chances of suffering from a serious disease"
+Mental model scale: consequence 05,Q32_5,mms.conseq_5,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Increased rates of serious disease all over the world"
+Mental model scale: consequence 06,Q32_6,mms.conseq_6,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: More and longer droughts in many parts of the world"
+Mental model scale: consequence 07,Q32_7,mms.conseq_7,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Decrease in your standard of living"
+Mental model scale: consequence 08,Q32_8,mms.conseq_8,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Food shortages in many parts of the world"
+Mental model scale: consequence 09,Q32_9,mms.conseq_9,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Climate refugees"
+Mental model scale: consequence 10,Q32_10,mms.conseq_10,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Increased poverty in many parts of the world"
+Mental model scale: consequence 11,Q32_11,mms.conseq_11,Numeric,"1-7 (1 = ""Extremely unlikely"", 2 = ""Very unlikely"", 3 = ""Somewhat unlikely"", 4 = ""Equally likely and unlikely"", 5 = ""Somewhat likely"", 6 = ""Very likely"", 7 = ""Extremely likely""","Question = ""Please rate for each of the following how likely it is as a consequence of climate change by the year 2050: Massive species extinctions"
+Mental model scale: consequence 12,Q39,mms.conseq.comment,Text,text,"Question = ""Do you have any recommendations for improving the survey questions on this page?"""
+Time to first click on page showing Q32 & Q39,Q65_First.Click,mms.conseq_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q32 & Q39,Q65_Last.Click,mms.conseq_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q32 & Q39,Q65_Page.Submit,mms.conseq_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q32 & Q39,Q65_Click.Count,mms.conseq_Click.Count,Numeric,1-Inf,
+Mental model scale: mitigation 01,Q35_1,mms.mitig_1,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Funding research to make renewable energy technologies cheaper and more effective"
+Mental model scale: mitigation 02,Q35_2,mms.mitig_2,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Reducing air pollution from toxic chemicals"
+Mental model scale: mitigation 03,Q35_3,mms.mitig_3,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Increasing taxes on all fossil fuels (e.g., gasoline, oil, coal, kerosene)"
+Mental model scale: mitigation 04,Q35_4,mms.mitig_4,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Changing lifestyles to reduce consumption"
+Mental model scale: mitigation 05,Q35_5,mms.mitig_5,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Creating an international market to trade permissions to emit carbon dioxide"
+Mental model scale: mitigation 06,Q35_6,mms.mitig_6,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Requiring cars and trucks to have higher fuel efficiency"
+Mental model scale: mitigation 07,Q35_7,mms.mitig_7,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Fertilizing the oceans to make algae grow"
+Mental model scale: mitigation 08,Q35_8,mms.mitig_8,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Limiting population growth"
+Mental model scale: mitigation 09,Q35_9,mms.mitig_9,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Largely replacing fossil fuels with nuclear energy"
+Mental model scale: mitigation 10,Q35_10,mms.mitig_10,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Putting more dust in the atmosphere"
+Mental model scale: mitigation 11,Q35_11,mms.mitig_11,Numeric,"1-7 (1 = ""Reduce or stop climate change"", 4 = ""Neither reduce nor increase"", 7 = ""Increase climate change""","Question = ""In the following you will find a number of steps that we may take to reduce or stop climate change. For each, assume that only that step will be taken. Consider each step separately from the rest. If it matters to your answer, assume that this step is taken all around the world. Please rate for each step what effect you think it would have on climate change: Planting trees"
+Mental model scale: mitigation 12,Q40,mms.mitig.comment,Text,text,"Question = ""Do you have any recommendations for improving the survey questions on this page?"""
+Time to first click on page showing Q66 & Q40,Q66_First.Click,mms.mitig_First.Click,Numeric,0-Inf,Measured in seconds
+Time to last click on page showing Q66 & Q40,Q66_Last.Click,mms.mitig_Last.Click,Numeric,0-Inf,Measured in seconds
+Time to submission of page showing Q66 & Q40,Q66_Page.Submit,mms.mitig_Page.Submit,Numeric,0-Inf,Measured in seconds
+Total clicks on page showing Q66 & Q40,Q66_Click.Count,mms.mitig_Click.Count,Numeric,1-Inf,
+N/A,resp1,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,resp2,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+Condition,condition,condition,Numeric,"1 = Climate change is happening now, 2 = climate change could happen, but is not happening now, 3 = climate change could never happen.",Condition of participant. Determined the exact text of the free list.
+N/A,firstlist,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,otherprompt,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,qID1,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,qID2,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,qID3,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,preamble,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,freelist,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,listitem,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,scalenumber,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,itemrefer,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+N/A,showprompt,N/A,N/A,N/A,"Variable embedded in Qualtrics survey, no relevant meaning."
+ID,id,,Numeric,1-Inf,Internal ID given to participants. Randomly assigned.
+Order of completion,completion_order,,Numeric,1-Inf,Order of completion. Low numbers were in soft launch
+Participant required replacement,new,,Logical,"TRUE = Participant from soft launch was replaced, FALSE = otherwise","In this study, no participant data required replacement, therefore all values are FALSE."
+Participant inclusion in soft launch,in.soft.launch,,Logical,"TRUE = Participant from soft launch, FALSE = otherwise","Some participants participated in a polit/soft launch of the survey, to ensure the survey functioned as intended and to dermine the criteria for early completion."

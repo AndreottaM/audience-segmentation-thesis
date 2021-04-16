@@ -1,0 +1,3 @@
+# MM-audiencesegmentation/codebook/study-1
+
+Contains the codebook for annotation of participant responses. These codebooks were used to label participant free list concepts. Each file applies to a different free list, and contains four variables: (1) a **code** containing a number to assign to responses; (2) **Item** an archetypal version of the concept; (3) a **mms_compat**, which indicates the concept that most closely relates to a similar item on the Mental Model Scales (see ../../study2/study/surveyscales-mms-with-subscales.csv); and (4) a **item.id** that labels the mental model scale items.

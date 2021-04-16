@@ -1,0 +1,6 @@
+model,cause_AIC,conseq_AIC,mitig_AIC
+Intercept only,75.69,76.40,3.80
+Main effect of segment membership,14.42,11.19,0.00
+Main effect of trust,23.13,16.86,4.35
+"Main effect of segment membership, main effect of trust",7.16,0.00,1.98
+"Main effect of segment membership, main effect of trust, interaction between segment membership and trust",0.00,0.92,4.36

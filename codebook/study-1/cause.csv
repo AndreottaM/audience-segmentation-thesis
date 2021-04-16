@@ -1,0 +1,63 @@
+code,Item,mms_compat,item.id
+-1,Yet to be classified,0,
+0,I don't know,0,
+1,Carbon dioxide emissions,1,cause-1
+2,Volcanic eruptions,1,cause-2
+3,Destruction of tropical forests,1,cause-3
+4,Livestock production,1,cause-4
+5,Nuclear energy,1,cause-5
+6,People heating and cooling their homes,1,cause-6
+7,The ozone hole in the upper atmosphere,1,cause-7
+8,Population growth,1,cause-8
+9,People driving their cars,1,cause-9
+10,Use of electricity from coal and oil,1,cause-10
+11,The use of aerosol spray cans,1,cause-11
+12,Air pollution from toxic chemicals,1,cause-12
+13,Greenhouse gas emissions,0,
+14,Human activity,0,
+15,A natural cycle/causes,0,
+16,Wood burning,0,
+17,Burning of fossil fuels,0,
+18,Destruction of forests,0,
+19,Methane,0,
+20,"Farming (General, Non-Livestock)",0,
+22,Gases & Sprays (Miscellaneous),0,
+23,Weather,0,
+24,Environment,0,
+25,Pollutants from developing countries,0,
+26,Temperature/Heat,0,
+27,Rain,0,
+28,Storms,0,
+29,Wind,0,
+30,Sun,0,
+31,Pollution,0,
+32,Lack of rain,0,
+33,Drought,0,
+34,Factories/Industry,0,
+35,Smoke,0,
+36,Burning plastic,0,
+37,Magnetic flux,0,
+38,Pole shift,0,
+39,Use of non-biodegradable material,0,
+40,More biological activity,0,
+41,"Inter-galactic processes (e.g., distance from other suns)",0,
+42,Geological process,0,
+43,Fires,0,
+44,Cyclones,0,
+45,Floods,0,
+46,Earthquakes,0,
+47,Ice melting,0,
+48,Animals,0,
+49,Airplanes,0,
+50,Changing ecosystem,0,
+51,Hydro carbon,0,
+52,Use of natural resources,0,
+53,Greenhouse effect,0,
+54,Global warming,0,
+55,Time,0,
+56,Mines,0,
+57,Useless politicians,0,
+58,Lack of encouragement for renewable energy,0,
+59,Chem trails,0,
+60,Overfishing,0,
+61,Overgrowth of algae,0,
