@@ -6,7 +6,7 @@ BFI_N,Neuroticism,I see myself as someone who gets nervous easily,Big Five Inven
 BFI_O,Openness,I see myself as someone who has an active imagination,Big Five Inventory-10 \parencite{rammstedt2007},1-5,2
 CFC_F,Orientation to future goals,I consider how things might be in the future,Consideration of Future Consequences \parencite{enzler2015},1-5,4
 CFC_I,Orientation to immediate goals,"I mainly act to satisfy my immediate concerns, figuring the future will take care of itself",Consideration of Future Consequences \parencite{enzler2015},1-5,5
-CI,Conspiratorial Ideation,The Apollo moon landings never happened and were staged in a Hollywood film studio,Conspiracist Ideation \parencite{lewandowsky2013},1-5,6
+CI,Conspiracist Ideation,The Apollo moon landings never happened and were staged in a Hollywood film studio,Conspiracist Ideation \parencite{lewandowsky2013},1-5,6
 EWS_D,Environment as Ductile Worldview,If the balance of the natural environment is upset the whole system will collapse,Environmental Worldview Scale \parencite{price2014},1-5,6
 EWS_E,Environment as Elastic Worldview,The natural environment is capable of recovering from any damage humans may cause,Environmental Worldview Scale \parencite{price2014},1-5,6
 KV,Knowledge Volume,How much do you feel you know about climate change?,Knowledge Volume \parencite{malka2009},1-4,1
